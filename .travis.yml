@@ -3,16 +3,3 @@ language: node_js
 node_js:
   - "4.0"
   - "5.0"
-
-before_install:
-  - "npm install -g codeclimate-test-reporter istanbul"
-
-addons:
-  code_climate:
-    repo_token: 1581c57cf6aedb4f145262aa342a0aedddf39c959e1e2ee5cea58e48953c1bd2
-
-script:
-  - "npm run cover"
-
-after_script:
-  - "cat ./coverage/lcov.info | codeclimate-test-reporter"

@@ -3,8 +3,6 @@
 [![npm](https://img.shields.io/npm/v/m3u8-stream-list.svg)](https://npmjs.org/package/m3u8-stream-list)
 [![license](https://img.shields.io/npm/l/m3u8-stream-list.svg)](https://npmjs.org/package/m3u8-stream-list)
 [![downloads](https://img.shields.io/npm/dm/m3u8-stream-list.svg)](https://npmjs.org/package/m3u8-stream-list)
-[![Code Climate](https://codeclimate.com/github/ReklatsMasters/m3u8-stream-list/badges/gpa.svg)](https://codeclimate.com/github/ReklatsMasters/m3u8-stream-list)
-[![Test Coverage](https://codeclimate.com/github/ReklatsMasters/m3u8-stream-list/badges/coverage.svg)](https://codeclimate.com/github/ReklatsMasters/m3u8-stream-list)
 
 Return all awailable streams from m3u8 playlist
 
