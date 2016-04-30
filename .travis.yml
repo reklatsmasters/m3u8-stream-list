@@ -9,7 +9,7 @@ before_install:
 
 addons:
   code_climate:
-    repo_token: 
+    repo_token: 1581c57cf6aedb4f145262aa342a0aedddf39c959e1e2ee5cea58e48953c1bd2
 
 script:
   - "npm run cover"
