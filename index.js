@@ -12,15 +12,7 @@ module.exports = m3u8
  * @return {Array.<{url: string}>}
  */
 function m3u8(playlist) {
-  return split_streams(reader(playlist))
-}
-
-/**
- * @param {String[]} lines
- * @return {Array.<{url:string, line:string}>}
- */
-function split_streams(lines) {
-  return lines.reduce(function (streams, url, i, pl) {
+  return reader(playlist).reduce(function (streams, url, i, pl) {
     if (is_url(url)) {
       const stream = pl[i - 1]
 
