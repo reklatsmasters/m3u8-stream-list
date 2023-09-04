@@ -30,5 +30,5 @@ function m3u8(playlist) {
  * @return {boolean}
  */
 function is_url(url) {
-  return (typeof url == 'string') && (url.startsWith('http://') || url.startsWith('https://'))
+  return (typeof url == 'string') && (url.startsWith('http://') || url.startsWith('https://') || url.includes('.m3u8'))
 }
